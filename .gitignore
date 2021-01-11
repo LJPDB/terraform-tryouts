@@ -1,3 +1,4 @@
 *.DS_Store
-global.tfvars
+**/*creds.tfvars
 **/*.terraform*
+!module-example/creds.example.tfvars
